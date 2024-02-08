@@ -1,6 +1,8 @@
 package Animals;
 
-public class Dragon extends Animal {
+import Animals.Interface.FlyingAnimals;
+
+public class Dragon extends Animal implements FlyingAnimals {
     public Dragon(){
         super(4,2);
     }
@@ -23,10 +25,10 @@ public class Dragon extends Animal {
     public String eat() {
         return "Дракон с недоверием глотает ваше печенье, в его глазах виднеется просьба чего-то по-крупнее.";
     }
-    public String dragonTrait(){
+    public String fly(){
         return "Дракон машет своими огромными крыльями вздымая высоко над крышами. Главное чтобы никто не заметил.";
     }
-    public String drakaris(){
+    public String dragonTrait(){
         return "Огонь резко вырывается из пасти вашего Дракона, жаль никого нельзя сжечь. Иногда хочется.";
     }
 }
