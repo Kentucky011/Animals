@@ -13,6 +13,10 @@ public class App {
         System.out.println(cat.sleep());
         Dragon dragon = new Dragon();
         System.out.println(dragon.eat());
+        System.out.println(dog.dogTrait());
+        System.out.println(cat.catTrait());
+        System.out.println(dragon.dragonTrait());
+        System.out.println(dragon.drakaris());
     }
 
 }

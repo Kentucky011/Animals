@@ -10,22 +10,22 @@ public class Dog extends Animal {
 
     @Override
     public String walk() {
-       return "тык-тык-тык";
+       return "Пёс радостно несется к вам сметая всё на своем пути.";
     }
 
     @Override
     public String sleep() {
-        return "ZzzzZZzzzZZzzz";
+        return "Пёс лежит на спине подняв лапы к верху и тихо похрапывает: Хрппп-Хрппп.";
     }
 
     @Override
     public String say() {
-        return "Гав-Гав";
+        return "Пес игриво подпрыгивает и радостно лает: Гав-Гав-Гав.";
     }
 
     @Override
     public String eat() {
-        return "ОМномномнмом";
+        return "Пёс с огромным удовольствием уплетает свой корм: ОМномномнмом.";
     }
 
     public String getBreed() {
@@ -34,5 +34,8 @@ public class Dog extends Animal {
 
     public void setBreed(String breed) {
         this.breed = breed;
+    }
+    public String dogTrait(){
+        return "Кажется, ваш любимый пес, виляя хвостом побежал есть чужие какашки.";
     }
 }
